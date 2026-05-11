@@ -21,9 +21,9 @@ export async function loadEnvironment(scene: Scene, renderer: WebGPURenderer) {
   
   const base = import.meta.env.BASE_URL 
   const [sdr, gainMap, metadata] = await Promise.all([
-    loader.loadAsync(base + 'hdrRosa.jpg'),
-    loader.loadAsync(base + 'hdrRosa-gainmap.jpg'),
-    fetch(base + 'hdrRosa.json').then(r => r.json())
+    loader.loadAsync(base + 'hdr.jpg'),
+    loader.loadAsync(base + 'hdr-gainmap.jpg'),
+    fetch(base + 'hdr.json').then(r => r.json())
   ])
 
   sdr.colorSpace = SRGBColorSpace
