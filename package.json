@@ -1,0 +1,41 @@
+{
+  "name": "vue-and-three",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vite preview",
+    "start": "vite",
+    "typecheck": "vue-tsc --noEmit",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@monogrid/gainmap-js": "^3.4.0",
+    "@unocss/reset": "^66.6.7",
+    "gsap": "^3.14.2",
+    "three": "^0.184.0",
+    "vue": "^3.5.31",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.12.0",
+    "@types/three": "^0.183.1",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-perfectionist": "^5.8.0",
+    "eslint-plugin-vue": "^10.8.0",
+    "gh-pages": "^6.3.0",
+    "jiti": "^2.6.1",
+    "neostandard": "^0.13.0",
+    "typescript": "^6.0.2",
+    "unocss": "^66.6.7",
+    "vite": "^8.0.3",
+    "vue-tsc": "^3.2.6"
+  }
+}
