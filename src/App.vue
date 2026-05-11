@@ -174,7 +174,6 @@ backdrop-filter: blur(4px);
   position: absolute;
   top: 10px;
   left: 12px;
-
   width: 38px;
   height: 18px;
 
