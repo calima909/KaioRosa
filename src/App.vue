@@ -56,7 +56,7 @@ function handleToggleAudio() {
   </div>
 
   <div class="audio-icon">
-    {{ isMuted ? '♩' : '♪' }}
+    {{ isMuted ? '🔇' : '🔊' }}
   </div>
 </button>
 
@@ -164,7 +164,7 @@ backdrop-filter: blur(4px);
   z-index: 2;
 
   text-shadow:
-    0 0 8px rgba(255,170,0,1);
+    0 0 8px rgb(255, 0, 0);
 }
 
 /* riflesso vetro */
@@ -212,7 +212,7 @@ backdrop-filter: blur(4px);
   justify-content: center;
   align-content: center;
 
-  gap: 12px;
+  gap: 14px;
 
   width: 42px;
   height: 42px;
