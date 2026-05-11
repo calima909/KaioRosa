@@ -5,7 +5,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Kaio/',
+  base: '/KaioRosa/',
   plugins: [
     vue(),
     UnoCSS()
